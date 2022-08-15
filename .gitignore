@@ -41,3 +41,13 @@
 *.db-wal
 *.dt
 *.command
+*.pdb
+*.ifc
+*.idb
+*.tlog
+*.log
+*.ilk
+*.recipe
+*.vcxproj
+.vs/Boom Bang Boom/v17/.suo
+

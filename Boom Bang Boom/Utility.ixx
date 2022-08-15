@@ -3,6 +3,7 @@ export module Utility;
 import <vector>;
 import <string>;
 import <iostream>;
+import <format>;
 
 export namespace Util {
 	export struct Coord {
@@ -39,16 +40,41 @@ export namespace Util {
 
 	}*pCoored;
 
-	export struct Option {
+	export class Option {
 		std::string title;
 		std::vector<std::string> options;
 		int selected{};
 
+	public:
 		Option() : title{}, options{} {}
 		Option( std::string title ) : title{ title }, options{} {}
 		Option( std::string title, std::vector<std::string> options ) : title{ title }, options{ options } {}
 
 		void outputTitle();
-		void outputOptions();
+		void outputOptions( int indent = 0 );
+		void outputMenu( int indent = 0);
+
+		inline void setTitle( std::string newTitle ) { title = newTitle; }
+		inline void addOption( std::string newOption ) { options.emplace_back( newOption ); }
 	};
+}
+
+using namespace Util;
+
+void Option::outputTitle()
+{
+	std::string sortedTitle = " " + title + " ";
+	std::cout << std::format( "{:=^80}", sortedTitle ) << std::endl;
+}
+
+void Util::Option::outputOptions(int indent)
+{
+	for ( auto& option : options ) 
+		std::cout << std::format( "{0:<{1}}{2:<}", "", indent, option) << std::endl;
+}
+
+void Util::Option::outputMenu( int indent )
+{
+	outputTitle();
+	outputOptions( indent );
 }

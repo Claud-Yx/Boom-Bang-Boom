@@ -1,0 +1,531 @@
+﻿  모듈 종속성의 소스를 검사하는 중...
+  Renderer.ixx
+  컴파일하는 중...
+  Renderer.ixx
+  Core.ixx
+  Core.cpp
+  main.cpp
+  Renderer.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(9531,5): warning C5105: 'defined'를 생성하는 매크로 확장에 정의되지 않은 동작이 있습니다.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,16): warning C5201: 전역 모듈 조각이 사용되지 않는 경우, 모듈 선언은 변환 단위 시작 부분에만 사용할 수 있습니다.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Outptr_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(400): message : '_Outptr_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Outptr_result_maybenull_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(401): message : '_Outptr_result_maybenull_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Outptr_opt_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(402): message : '_Outptr_opt_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Outptr_opt_result_maybenull_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(403): message : '_Outptr_opt_result_maybenull_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Outptr_result_z_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(404): message : '_Outptr_result_z_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Outptr_opt_result_z_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(405): message : '_Outptr_opt_result_z_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Outptr_result_maybenull_z_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(406): message : '_Outptr_result_maybenull_z_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Outptr_opt_result_maybenull_z_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(407): message : '_Outptr_opt_result_maybenull_z_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Outptr_result_nullonfailure_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(408): message : '_Outptr_result_nullonfailure_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Outptr_opt_result_nullonfailure_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(409): message : '_Outptr_opt_result_nullonfailure_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_COM_Outptr_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(410): message : '_COM_Outptr_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_COM_Outptr_result_maybenull_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(411): message : '_COM_Outptr_result_maybenull_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_COM_Outptr_opt_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(412): message : '_COM_Outptr_opt_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_COM_Outptr_opt_result_maybenull_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(413): message : '_COM_Outptr_opt_result_maybenull_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Deref_out_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(442): message : '_Deref_out_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Deref_out_opt_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(443): message : '_Deref_out_opt_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Deref_opt_out_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(444): message : '_Deref_opt_out_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Deref_opt_out_opt_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(445): message : '_Deref_opt_out_opt_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__null': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(658): message : '__null'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__notnull': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(659): message : '__notnull'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__maybenull': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(660): message : '__maybenull'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__exceptthat': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(661): message : '__exceptthat'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__in': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(192): message : '__in'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__in_z': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(196): message : '__in_z'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__nullterminated': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(623): message : '__nullterminated'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__in_nz': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(1066): message : '__in_nz'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__out': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(199): message : '__out'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__out_z': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(209): message : '__out_z'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__out_nz': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(1069): message : '__out_nz'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__out_nz_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(1070): message : '__out_nz_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__inout': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(212): message : '__inout'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__inout_z': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(222): message : '__inout_z'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__inout_nz': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(1073): message : '__inout_nz'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__in_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(228): message : '__in_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__in_z_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(231): message : '__in_z_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__in_nz_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(1076): message : '__in_nz_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__out_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(235): message : '__out_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__inout_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(247): message : '__inout_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__inout_z_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(257): message : '__inout_z_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__inout_nz_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(1081): message : '__inout_nz_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_out': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(268): message : '__deref_out'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_out_z': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(278): message : '__deref_out_z'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_out_nz': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(1084): message : '__deref_out_nz'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_inout': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(281): message : '__deref_inout'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_inout_z': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(291): message : '__deref_inout_z'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_inout_nz': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(1087): message : '__deref_inout_nz'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_out_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(302): message : '__deref_out_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_out_z_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(312): message : '__deref_out_z_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_out_nz_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(1090): message : '__deref_out_nz_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_inout_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(315): message : '__deref_inout_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_inout_z_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(325): message : '__deref_inout_z_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_inout_nz_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(1093): message : '__deref_inout_nz_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_out': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(335): message : '__deref_opt_out'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_inout': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(345): message : '__deref_opt_inout'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_inout_z': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(355): message : '__deref_opt_inout_z'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_inout_nz': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(1096): message : '__deref_opt_inout_nz'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_out_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(365): message : '__deref_opt_out_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_out_z_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(375): message : '__deref_opt_out_z_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_out_nz_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(1099): message : '__deref_opt_out_nz_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_inout_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(378): message : '__deref_opt_inout_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_inout_z_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(388): message : '__deref_opt_inout_z_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_inout_nz_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(1102): message : '__deref_opt_inout_nz_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__nullnullterminated': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(624): message : '__nullnullterminated'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__reserved': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(625): message : '__reserved'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__checkReturn': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(626): message : '__checkReturn'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__override': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(628): message : '__override'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__callback': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(629): message : '__callback'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__format_string': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(630): message : '__format_string'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__fallthrough': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(632): message : '__fallthrough'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_At_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(618): message : '_At_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_When_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(619): message : '_When_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Outptr_result_buffer_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(414): message : '_Outptr_result_buffer_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Outptr_opt_result_buffer_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(415): message : '_Outptr_opt_result_buffer_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Outptr_result_buffer_to_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(416): message : '_Outptr_result_buffer_to_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Outptr_opt_result_buffer_to_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(417): message : '_Outptr_opt_result_buffer_to_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Outptr_result_buffer_all_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(418): message : '_Outptr_result_buffer_all_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Outptr_opt_result_buffer_all_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(419): message : '_Outptr_opt_result_buffer_all_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Outptr_result_buffer_maybenull_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(420): message : '_Outptr_result_buffer_maybenull_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Outptr_opt_result_buffer_maybenull_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(421): message : '_Outptr_opt_result_buffer_maybenull_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Outptr_result_buffer_to_maybenull_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(422): message : '_Outptr_result_buffer_to_maybenull_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Outptr_opt_result_buffer_to_maybenull_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(423): message : '_Outptr_opt_result_buffer_to_maybenull_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Outptr_result_buffer_all_maybenull_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(424): message : '_Outptr_result_buffer_all_maybenull_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Outptr_opt_result_buffer_all_maybenull_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(425): message : '_Outptr_opt_result_buffer_all_maybenull_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Outptr_result_bytebuffer_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(426): message : '_Outptr_result_bytebuffer_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Outptr_opt_result_bytebuffer_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(427): message : '_Outptr_opt_result_bytebuffer_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Outptr_result_bytebuffer_to_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(428): message : '_Outptr_result_bytebuffer_to_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Outptr_opt_result_bytebuffer_to_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(429): message : '_Outptr_opt_result_bytebuffer_to_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Outptr_result_bytebuffer_all_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(430): message : '_Outptr_result_bytebuffer_all_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Outptr_opt_result_bytebuffer_all_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(431): message : '_Outptr_opt_result_bytebuffer_all_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Outptr_result_bytebuffer_maybenull_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(432): message : '_Outptr_result_bytebuffer_maybenull_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Outptr_opt_result_bytebuffer_maybenull_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(433): message : '_Outptr_opt_result_bytebuffer_maybenull_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Outptr_result_bytebuffer_to_maybenull_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(434): message : '_Outptr_result_bytebuffer_to_maybenull_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Outptr_opt_result_bytebuffer_to_maybenull_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(435): message : '_Outptr_opt_result_bytebuffer_to_maybenull_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Outptr_result_bytebuffer_all_maybenull_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(436): message : '_Outptr_result_bytebuffer_all_maybenull_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Outptr_opt_result_bytebuffer_all_maybenull_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(437): message : '_Outptr_opt_result_bytebuffer_all_maybenull_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_In_count_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(446): message : '_In_count_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_In_opt_count_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(447): message : '_In_opt_count_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_In_bytecount_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(448): message : '_In_bytecount_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_In_opt_bytecount_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(449): message : '_In_opt_bytecount_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Out_cap_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(450): message : '_Out_cap_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Out_opt_cap_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(451): message : '_Out_opt_cap_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Out_bytecap_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(452): message : '_Out_bytecap_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Out_opt_bytecap_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(453): message : '_Out_opt_bytecap_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Deref_post_cap_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(458): message : '_Deref_post_cap_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Deref_post_opt_cap_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(459): message : '_Deref_post_opt_cap_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Deref_post_bytecap_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(460): message : '_Deref_post_bytecap_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Deref_post_opt_bytecap_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(461): message : '_Deref_post_opt_bytecap_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Deref_post_count_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(454): message : '_Deref_post_count_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Deref_post_opt_count_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(455): message : '_Deref_post_opt_count_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Deref_post_bytecount_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(456): message : '_Deref_post_bytecount_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '_Deref_post_opt_bytecount_': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(457): message : '_Deref_post_opt_bytecount_'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C5106: 다른 매개 변수 이름으로 다시 정의된 매크로
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(1108): message : '__readableTo'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__ecount': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(189): message : '__ecount'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__bcount': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(190): message : '__bcount'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__in_ecount': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(193): message : '__in_ecount'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__in_bcount': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(194): message : '__in_bcount'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__in_ecount_z': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(197): message : '__in_ecount_z'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__in_bcount_z': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(198): message : '__in_bcount_z'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__in_ecount_nz': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(1067): message : '__in_ecount_nz'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__in_bcount_nz': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(1068): message : '__in_bcount_nz'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__out_ecount': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(200): message : '__out_ecount'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__out_bcount': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(201): message : '__out_bcount'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__out_ecount_part': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(203): message : '__out_ecount_part'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__out_bcount_part': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(204): message : '__out_bcount_part'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__out_ecount_full': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(206): message : '__out_ecount_full'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__out_bcount_full': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(207): message : '__out_bcount_full'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__out_ecount_z': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(210): message : '__out_ecount_z'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__out_bcount_z': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(211): message : '__out_bcount_z'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__out_ecount_nz': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(1071): message : '__out_ecount_nz'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__out_bcount_nz': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(1072): message : '__out_bcount_nz'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__inout_ecount': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(213): message : '__inout_ecount'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__inout_bcount': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(214): message : '__inout_bcount'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__inout_ecount_part': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(216): message : '__inout_ecount_part'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__inout_bcount_part': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(217): message : '__inout_bcount_part'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__inout_ecount_full': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(219): message : '__inout_ecount_full'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__inout_bcount_full': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(220): message : '__inout_bcount_full'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__inout_ecount_z': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(223): message : '__inout_ecount_z'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__inout_bcount_z': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(224): message : '__inout_bcount_z'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__inout_ecount_nz': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(1074): message : '__inout_ecount_nz'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__inout_bcount_nz': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(1075): message : '__inout_bcount_nz'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__ecount_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(225): message : '__ecount_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__bcount_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(226): message : '__bcount_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__in_ecount_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(229): message : '__in_ecount_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__in_bcount_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(230): message : '__in_bcount_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__in_ecount_z_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(232): message : '__in_ecount_z_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__in_bcount_z_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(233): message : '__in_bcount_z_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__in_ecount_nz_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(1077): message : '__in_ecount_nz_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__in_bcount_nz_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(1078): message : '__in_bcount_nz_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__out_ecount_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(236): message : '__out_ecount_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__out_bcount_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(237): message : '__out_bcount_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__out_ecount_part_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(239): message : '__out_ecount_part_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__out_bcount_part_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(240): message : '__out_bcount_part_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__out_ecount_full_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(242): message : '__out_ecount_full_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__out_bcount_full_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(243): message : '__out_bcount_full_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__out_ecount_z_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(245): message : '__out_ecount_z_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__out_bcount_z_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(246): message : '__out_bcount_z_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__out_ecount_nz_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(1079): message : '__out_ecount_nz_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__out_bcount_nz_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(1080): message : '__out_bcount_nz_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__inout_ecount_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(248): message : '__inout_ecount_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__inout_bcount_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(249): message : '__inout_bcount_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__inout_ecount_part_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(251): message : '__inout_ecount_part_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__inout_bcount_part_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(252): message : '__inout_bcount_part_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__inout_ecount_full_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(254): message : '__inout_ecount_full_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__inout_bcount_full_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(255): message : '__inout_bcount_full_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__inout_ecount_z_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(258): message : '__inout_ecount_z_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__inout_bcount_z_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(260): message : '__inout_bcount_z_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__inout_ecount_nz_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(1082): message : '__inout_ecount_nz_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__inout_bcount_nz_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(1083): message : '__inout_bcount_nz_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_ecount': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(261): message : '__deref_ecount'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_bcount': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(262): message : '__deref_bcount'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_out_ecount': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(269): message : '__deref_out_ecount'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_out_bcount': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(270): message : '__deref_out_bcount'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_out_ecount_part': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(272): message : '__deref_out_ecount_part'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_out_bcount_part': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(273): message : '__deref_out_bcount_part'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_out_ecount_full': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(275): message : '__deref_out_ecount_full'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_out_bcount_full': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(276): message : '__deref_out_bcount_full'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_out_ecount_z': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(279): message : '__deref_out_ecount_z'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_out_bcount_z': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(280): message : '__deref_out_bcount_z'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_out_ecount_nz': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(1085): message : '__deref_out_ecount_nz'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_out_bcount_nz': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(1086): message : '__deref_out_bcount_nz'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_inout_ecount': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(282): message : '__deref_inout_ecount'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_inout_bcount': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(283): message : '__deref_inout_bcount'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_inout_ecount_part': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(285): message : '__deref_inout_ecount_part'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_inout_bcount_part': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(286): message : '__deref_inout_bcount_part'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_inout_ecount_full': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(288): message : '__deref_inout_ecount_full'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_inout_bcount_full': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(289): message : '__deref_inout_bcount_full'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_inout_ecount_z': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(292): message : '__deref_inout_ecount_z'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_inout_bcount_z': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(293): message : '__deref_inout_bcount_z'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_inout_ecount_nz': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(1088): message : '__deref_inout_ecount_nz'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_inout_bcount_nz': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(1089): message : '__deref_inout_bcount_nz'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_ecount_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(294): message : '__deref_ecount_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_bcount_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(295): message : '__deref_bcount_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_out_ecount_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(303): message : '__deref_out_ecount_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_out_bcount_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(304): message : '__deref_out_bcount_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_out_ecount_part_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(306): message : '__deref_out_ecount_part_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_out_bcount_part_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(307): message : '__deref_out_bcount_part_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_out_ecount_full_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(309): message : '__deref_out_ecount_full_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_out_bcount_full_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(310): message : '__deref_out_bcount_full_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_out_ecount_z_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(313): message : '__deref_out_ecount_z_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_out_bcount_z_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(314): message : '__deref_out_bcount_z_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_out_ecount_nz_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(1091): message : '__deref_out_ecount_nz_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_out_bcount_nz_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(1092): message : '__deref_out_bcount_nz_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_inout_ecount_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(316): message : '__deref_inout_ecount_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_inout_bcount_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(317): message : '__deref_inout_bcount_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_inout_ecount_part_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(319): message : '__deref_inout_ecount_part_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_inout_bcount_part_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(320): message : '__deref_inout_bcount_part_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_inout_ecount_full_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(322): message : '__deref_inout_ecount_full_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_inout_bcount_full_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(323): message : '__deref_inout_bcount_full_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_inout_ecount_z_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(326): message : '__deref_inout_ecount_z_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_inout_bcount_z_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(327): message : '__deref_inout_bcount_z_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_inout_ecount_nz_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(1094): message : '__deref_inout_ecount_nz_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_inout_bcount_nz_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(1095): message : '__deref_inout_bcount_nz_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_ecount': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(328): message : '__deref_opt_ecount'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_bcount': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(329): message : '__deref_opt_bcount'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_out_ecount': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(336): message : '__deref_opt_out_ecount'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_out_bcount': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(337): message : '__deref_opt_out_bcount'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_out_ecount_part': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(339): message : '__deref_opt_out_ecount_part'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_out_bcount_part': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(340): message : '__deref_opt_out_bcount_part'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_out_ecount_full': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(342): message : '__deref_opt_out_ecount_full'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_out_bcount_full': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(343): message : '__deref_opt_out_bcount_full'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_inout_ecount': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(346): message : '__deref_opt_inout_ecount'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_inout_bcount': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(347): message : '__deref_opt_inout_bcount'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_inout_ecount_part': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(349): message : '__deref_opt_inout_ecount_part'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_inout_bcount_part': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(350): message : '__deref_opt_inout_bcount_part'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_inout_ecount_full': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(352): message : '__deref_opt_inout_ecount_full'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_inout_bcount_full': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(353): message : '__deref_opt_inout_bcount_full'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_inout_ecount_z': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(356): message : '__deref_opt_inout_ecount_z'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_inout_bcount_z': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(357): message : '__deref_opt_inout_bcount_z'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_inout_ecount_nz': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(1097): message : '__deref_opt_inout_ecount_nz'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_inout_bcount_nz': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(1098): message : '__deref_opt_inout_bcount_nz'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_ecount_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(358): message : '__deref_opt_ecount_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_bcount_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(359): message : '__deref_opt_bcount_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_out_ecount_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(366): message : '__deref_opt_out_ecount_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_out_bcount_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(367): message : '__deref_opt_out_bcount_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_out_ecount_part_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(369): message : '__deref_opt_out_ecount_part_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_out_bcount_part_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(370): message : '__deref_opt_out_bcount_part_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_out_ecount_full_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(372): message : '__deref_opt_out_ecount_full_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_out_bcount_full_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(373): message : '__deref_opt_out_bcount_full_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_out_ecount_z_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(376): message : '__deref_opt_out_ecount_z_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_out_bcount_z_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(377): message : '__deref_opt_out_bcount_z_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_out_ecount_nz_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(1100): message : '__deref_opt_out_ecount_nz_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_out_bcount_nz_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(1101): message : '__deref_opt_out_bcount_nz_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_inout_ecount_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(379): message : '__deref_opt_inout_ecount_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_inout_bcount_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(380): message : '__deref_opt_inout_bcount_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_inout_ecount_part_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(382): message : '__deref_opt_inout_ecount_part_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_inout_bcount_part_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(383): message : '__deref_opt_inout_bcount_part_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_inout_ecount_full_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(385): message : '__deref_opt_inout_ecount_full_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_inout_bcount_full_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(386): message : '__deref_opt_inout_bcount_full_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_inout_ecount_z_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(389): message : '__deref_opt_inout_ecount_z_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_inout_bcount_z_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(390): message : '__deref_opt_inout_bcount_z_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_inout_ecount_nz_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(1103): message : '__deref_opt_inout_ecount_nz_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__deref_opt_inout_bcount_nz_opt': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(1104): message : '__deref_opt_inout_bcount_nz_opt'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__success': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(620): message : '__success'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__typefix': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(627): message : '__typefix'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__blocksOn': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(631): message : '__blocksOn'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__control_entrypoint': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(844): message : '__control_entrypoint'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__data_entrypoint': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(1112): message : '__data_entrypoint'의 이전 정의를 참조하십시오.
+C:\Yun Project\Boom Bang Boom\Boom Bang Boom\Renderer.cpp(3,1): warning C4005: '__analysis_assume': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h(933): message : '__analysis_assume'의 이전 정의를 참조하십시오.
+  코드를 생성하고 있습니다.
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+  All 90 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  Boom Bang Boom.vcxproj -> C:\Yun Project\Boom Bang Boom\x64\Release\Boom Bang Boom.exe

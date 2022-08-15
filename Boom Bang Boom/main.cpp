@@ -1,0 +1,6 @@
+import Core;
+
+int main()
+{
+
+}

@@ -45,5 +45,8 @@
     <ClCompile Include="Updater.ixx">
       <Filter>헤더 파일\Engine</Filter>
     </ClCompile>
+    <ClCompile Include="Frame.ixx">
+      <Filter>헤더 파일\Engine</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

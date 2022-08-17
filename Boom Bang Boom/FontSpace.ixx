@@ -32,7 +32,7 @@ export namespace FS {
 		cout << format( "{:^80}", "Select the number 1 or 2" ) << endl;
 	}
 
-	export void Update( unsigned short key )
+	export std::string Update( unsigned short key )
 	{
 		switch ( key ) {
 		case '1':
@@ -41,7 +41,11 @@ export namespace FS {
 		case '2':
 			setOneByteFontSpace( true );
 			break;
+		default:
+			return "displaySelectFontSpaceMenu";
 		}
+
+		return "mainMenu";
 	}
 }
 

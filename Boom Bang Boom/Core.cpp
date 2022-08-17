@@ -14,6 +14,9 @@ namespace Core {
 
 	void Init()
 	{
+		// running init
+		Update::running = &running;
+		
 		// Window setting
 		Render::setConsoleSize(80, 25);
 		Render::setConsoleTitle( "Boom Bang Boom!" );

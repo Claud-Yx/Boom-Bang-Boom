@@ -2,6 +2,7 @@ export module Renderer;
 
 import Utility;
 import <iostream>;
+import <string>;
 import <vector>;
 import <functional>;
 
@@ -21,19 +22,33 @@ namespace Render {
 
 	export struct PartedOutputBuffer {
 		std::string buffer;
+		//std::size_t lineCnt;
 
-		PartedOutputBuffer(std::string str) : buffer{str} {}
+		PartedOutputBuffer() : buffer{} {}
 
-		PartedOutputBuffer& operator<<( const PartedOutputBuffer rhs )
+		PartedOutputBuffer& operator<<( const std::string rhs )
 		{
-			buffer += rhs.buffer;
+			buffer += rhs;
 			return *this;
 		}
 
-		inline const void showBuffer() { std::cout << buffer << std::endl; }
-	};
-	export void renderInParted( Util::Coord start_pos, )
-	{
+		PartedOutputBuffer& operator<<( char rhs )
+		{
+			buffer += rhs;
+			return *this;
+		}
 
-	}
+		PartedOutputBuffer& operator<<( int rhs )
+		{
+			buffer += std::to_string( rhs );
+			return *this;
+		}
+
+		inline void clear() { buffer.clear(); }
+
+		inline const void showBuffer() { std::cout << buffer << std::endl; }
+		void renderInParted( Util::Coord start_pos );
+	};
+
+	// Color
 }

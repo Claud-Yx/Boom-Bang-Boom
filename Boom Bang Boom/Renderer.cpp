@@ -55,4 +55,18 @@ namespace Render {
 		for ( int y{}; y < height; ++y )
 			std::cout << blank << std::endl;
 	}
+
+	void PartedOutputBuffer::renderInParted( Util::Coord start_pos )
+	{
+		setCursorPos( start_pos );
+		
+		for ( const char ch : buffer ) {
+			if ( ch == '\n' ) {
+				++start_pos.y;
+				setCursorPos( start_pos );
+				continue;
+			}
+			std::cout << ch;
+		}
+	}
 }

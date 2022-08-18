@@ -93,6 +93,16 @@ export namespace Util {
 
 		return key;
 	}
+
+	export int hexCharToInt( char hex ) 
+	{
+		if ( '0' <= hex and hex <= '9' )
+			return hex - '0';
+		else if ( 'a' <= hex and hex <= 'f' or 'A' <= hex and hex <= 'F' )
+			return std::toupper( hex ) - 55;
+		else
+			return -1;
+	}
 }
 
 using namespace Util;

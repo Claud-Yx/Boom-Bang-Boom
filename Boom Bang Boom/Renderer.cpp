@@ -56,17 +56,61 @@ namespace Render {
 			std::cout << blank << std::endl;
 	}
 
+	void setConsoleColor( int fg, int bg )
+	{
+		CUR_BG_COLOR = (bg << 4) & 0xf0;
+		CUR_FG_COLOR = fg & 0xf;
+
+		SetConsoleTextAttribute( GetStdHandle( STD_OUTPUT_HANDLE ), CUR_FG_COLOR | CUR_BG_COLOR );
+	}
+
+	void setConsoleFgColor( int color )
+	{
+		CUR_FG_COLOR = color & 0xf;
+		SetConsoleTextAttribute( GetStdHandle( STD_OUTPUT_HANDLE ), CUR_FG_COLOR | CUR_BG_COLOR );
+	}
+
+	void setConsoleBgColor( int color )
+	{
+		CUR_BG_COLOR = (color << 4) & 0xf0;
+		SetConsoleTextAttribute( GetStdHandle( STD_OUTPUT_HANDLE ), CUR_FG_COLOR | CUR_BG_COLOR );
+	}
+
+	std::string getColorCode( int fg, int bg )
+	{
+		return std::format( "\a{:x}{:x}", bg, fg );
+	}
+
+	std::string getFgColorCode( int fg )
+	{
+		return std::format( "\a{:x}{:x}", CUR_BG_COLOR, fg );
+	}
+
+	std::string getBgColorCode( int bg )
+	{
+		return std::format( "\a{:x}{:x}", bg, CUR_FG_COLOR );
+	}
+
 	void PartedOutputBuffer::renderInParted( Util::Coord start_pos )
 	{
 		setCursorPos( start_pos );
 		
-		for ( const char ch : buffer ) {
-			if ( ch == '\n' ) {
+		for ( auto i{ buffer.begin() }; i != buffer.end(); ++i ) {
+			if ( *i == '\n' ) {
 				++start_pos.y;
 				setCursorPos( start_pos );
 				continue;
 			}
-			std::cout << ch;
+
+			else if ( *i == '\a' ) {
+				int bg = Util::hexCharToInt( *(++i) );
+				int fg = Util::hexCharToInt( *(++i) );
+
+				setConsoleColor( fg, bg );
+				continue;
+			}
+
+			std::cout << *i;
 		}
 	}
 }

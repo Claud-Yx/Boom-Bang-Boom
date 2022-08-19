@@ -139,6 +139,7 @@
       <LanguageStandard Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">stdcpplatest</LanguageStandard>
       <LanguageStandard Condition="'$(Configuration)|$(Platform)'=='Release|x64'">stdcpplatest</LanguageStandard>
     </ClCompile>
+    <ClCompile Include="EngineTest.ixx" />
     <ClCompile Include="FontSpace.ixx" />
     <ClCompile Include="Frame.ixx" />
     <ClCompile Include="main.cpp" />

@@ -1,6 +1,7 @@
 export module Renderer;
 
 import Utility;
+import Frame;
 import <iostream>;
 import <string>;
 import <vector>;
@@ -8,10 +9,24 @@ import <functional>;
 
 namespace Render {
 	std::function<void()> displayFunc;
+	std::function<void( Frame& )> displayMethod{&Frame::Render};
+	Frame* currentFrame{};
+	char renderMode{};
 
 	export unsigned short width{}, height{};
 
-	export void setDisplayFunc( std::function<void()> fn ) { displayFunc = fn; }
+	export void setDisplayFunc( std::function<void()> fn ) 
+	{ 
+		displayFunc = fn; 
+		renderMode = 'f';
+	}
+
+	export void setDisplayMethod( Frame* renderFrame ) 
+	{ 
+		renderMode = 'm';
+		currentFrame = renderFrame;
+	}
+
 	export void Render();
 
 	export void setCursorPos( Util::Coord );
@@ -70,7 +85,7 @@ namespace Render {
 		WHITE,
 	};
 
-	const int BASIC_BG_COLOR{ BLACK << 4 };
+	const int BASIC_BG_COLOR{ BLACK };
 	const int BASIC_FG_COLOR{ WHITE };
 
 	int CUR_BG_COLOR{BASIC_BG_COLOR};

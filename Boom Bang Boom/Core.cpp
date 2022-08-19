@@ -1,7 +1,5 @@
 module Core;
 
-import <format>;
-
 namespace Core {
 	void Run()
 	{
@@ -11,43 +9,48 @@ namespace Core {
 			Render::Render();
 			Update::keyEvent();
 			Update::Update();
+
+			if ( currentFrameName == "" ) 
+				continue;
+			else if ( currentFrameName == "quit" ) 
+				break;
+			else
+				changeFrame( currentFrameName );
 		}
-	}
-
-	void showTest() 
-	{
-		Render::getFgColorCode( 1 );
-
-		Render::PartedOutputBuffer out;
-
-		std::string word = std::format( "{}H{}e{}l{}l{}o {}w{}o{}r{}l{}d{}",
-			Render::getFgColorCode( 1 ), Render::getFgColorCode( 2 ), Render::getFgColorCode( 3 ),
-			Render::getFgColorCode( 4 ), Render::getFgColorCode( 5 ), Render::getFgColorCode( 6 ),
-			Render::getFgColorCode( 7 ), Render::getFgColorCode( 8 ), Render::getFgColorCode( 9 ),
-			Render::getFgColorCode( 10 ), Render::getFgColorCode( 15 )
-		);
-
-		out << word << '\n';
-
-		out.showBuffer();
-		out.renderInParted( { 10, 10 } );
-		out.renderInParted( { 40, 10 } );
-		out.renderInParted( { 10, 20 } );
-		out.renderInParted( { 40, 20 } );
 	}
 
 	void Init()
 	{
-		// running init
-		Update::running = &running;
+		// variable init
+		Update::currentFrameName = &currentFrameName;
 		
 		// Window setting
 		Render::setConsoleSize(80, 25);
 		Render::setConsoleTitle( "Boom Bang Boom!" );
 		Render::showCursor( false );
+		
+		// Frames
+		frames.push_back( &FS::fontSpaceMenuFrame );
+		frames.push_back( &TEST::testFrame );
+		changeFrame( "FontSpaceMenu" );
 
-		//Render::setDisplayFunc( FS::displaySelectFontSpaceMenu );
-		Render::setDisplayFunc( showTest );
-		Update::setUpdateFunc( FS::Update );
+		// Test
+		//Render::setDisplayFunc( showTest );
+	}
+
+	void changeFrame( std::string frameName )
+	{
+		Render::clearConsole();
+		auto frame = find_if( frames.begin(), frames.end(), [&frameName]( const Frame* lhs ) {
+			return lhs->getName() == frameName;
+			} );
+
+		if ( frame == frames.end() ) {
+			std::cerr << "ERROR: no frame" << std::endl;
+			exit( 1 );
+		}
+
+		Render::setDisplayMethod( *frame );
+		Update::setUpdateMethod( *frame );
 	}
 }

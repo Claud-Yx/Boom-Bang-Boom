@@ -3,19 +3,20 @@ export module FontSpace;
 import <string>;
 import <format>;
 import <iostream>;
+import Frame;
 
 export namespace FS {
 	bool ONE_BYTE_SPECIAL_CHARACTERS{};
 
-	export void setOneByteFontSpace( bool bl ) { ONE_BYTE_SPECIAL_CHARACTERS = bl; }
+	void setOneByteFontSpace( bool bl ) { ONE_BYTE_SPECIAL_CHARACTERS = bl; }
 
-	export void displaySelectFontSpaceMenu()
+	void Render()
 	{
 		using namespace std;
 
 		cout << endl << endl;
 
-		cout << format( "{:^80}", "Choose the normal display") << endl << endl << endl;
+		cout << format( "{:^80}", "Choose the normal display" ) << endl << endl << endl;
 
 		cout << format( "{:^80}", "No.1      " ) << endl;
 		cout << format( "{:^80}", "¡á¡à¡á¡à¡á" ) << endl;
@@ -32,7 +33,7 @@ export namespace FS {
 		cout << format( "{:^80}", "Select the number 1 or 2" ) << endl;
 	}
 
-	export std::string Update( unsigned short key )
+	std::string Update( unsigned short key )
 	{
 		switch ( key ) {
 		case '1':
@@ -42,11 +43,14 @@ export namespace FS {
 			setOneByteFontSpace( true );
 			break;
 		default:
-			return "displaySelectFontSpaceMenu";
+			return "";
 		}
 
-		return "mainMenu";
+		return "TestFrame";
+		//return "mainMenu";
 	}
+
+	export Frame fontSpaceMenuFrame{ "FontSpaceMenu", Render, Update };
 }
 
 export std::string sc()

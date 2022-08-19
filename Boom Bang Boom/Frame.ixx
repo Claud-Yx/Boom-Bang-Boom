@@ -2,26 +2,27 @@ export module Frame;
 
 import <string>;
 import <functional>;
-import Utility;
 
 export class Frame {
 	std::string name{};
-	std::function<void()> Render;
-	std::function<std::string( Util::KEYBOARD )> Update;
+	std::function<void()> Renderer;
+	std::function<std::string( unsigned short )> Updater;
 
 public:
 	Frame(
 		std::string name,
 		std::function<void()> renderer,
-		std::function < std::string(Util::KEYBOARD)> updater
-	) : name{ name }, Render{ renderer }, Update{ updater } {}
-
+		std::function < std::string( unsigned short )> updater
+	) : name{ name }, Renderer{ renderer }, Updater{ updater } {}
 
 public:
-	inline const std::string& getName() { return name; }
-	inline std::function<void()> getRenderer() { return Render; }
-	inline std::function<std::string( Util::KEYBOARD )> getUpdater() { return Update; }
-	
-	inline void setRenderer( std::function<void()> renderer ) { Render = renderer; }
-	inline void setUpdater( std::function<std::string( Util::KEYBOARD )> updater ) { Update = updater; }
+	inline const std::string& getName() const { return name; }
+	inline std::function<void()> getRenderer() { return Renderer; }
+	inline std::function<std::string( unsigned short )> getUpdater() { return Updater; }
+
+	inline void Render() { Renderer(); }
+	inline std::string Update( unsigned short key ) { return Updater( key ); }
+
+	inline void setRenderer( std::function<void()> renderer ) { Renderer = renderer; }
+	inline void setUpdater( std::function<std::string( unsigned short )> updater ) { Updater = updater; }
 };

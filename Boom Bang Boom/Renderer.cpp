@@ -12,7 +12,18 @@ namespace Render {
 	{
 		setCursorPos( { 0, 0 } );
 
-		displayFunc();
+		switch ( renderMode ) {
+		case 'f':
+			displayFunc();
+			break;
+		case 'm':
+			displayMethod(*currentFrame);
+			break;
+		default:
+			std::cerr << std::format("ERROR: wrong render mode( '{}' )", renderMode) << std::endl;
+			system( "pause" );
+			exit(1);
+		}
 	}
 
 	void setCursorPos( Util::Coord pos )

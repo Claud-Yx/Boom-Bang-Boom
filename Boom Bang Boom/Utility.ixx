@@ -7,7 +7,7 @@ import <format>;
 import <conio.h>;
 import FontSpace;
 
-export namespace Util {
+namespace Util {
 	export unsigned short width{}, height{};
 
 	export enum KEY_EVENT {

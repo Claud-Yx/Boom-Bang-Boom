@@ -4,7 +4,7 @@ import <format>;
 import Renderer;
 import Frame;
 
-export namespace TEST {
+namespace TEST {
 	void renderTest()
 	{
 		Render::getFgColorCode( 1 );

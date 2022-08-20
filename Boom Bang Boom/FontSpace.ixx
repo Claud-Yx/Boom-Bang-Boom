@@ -5,7 +5,7 @@ import <format>;
 import <iostream>;
 import Frame;
 
-export namespace FS {
+namespace FS {
 	bool ONE_BYTE_SPECIAL_CHARACTERS{};
 
 	void setOneByteFontSpace( bool bl ) { ONE_BYTE_SPECIAL_CHARACTERS = bl; }

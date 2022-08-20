@@ -7,20 +7,21 @@ import <iostream>;
 import Frame;
 import Utility;
 
-export namespace Update {
-	std::function<std::string(Util::KEYBOARD)> updateFunc;
+namespace Update {
+	std::function<std::string( Util::KEYBOARD )> updateFunc;
 	std::function<std::string( Frame&, Util::KEYBOARD )> updateMethod{ &Frame::Update };
 	char updateMode{};
 
-	Frame* currentFrame{};
-	std::string* currentFrameName{};
+	std::function<void( Frame& )> initMethod( &Frame::Init );
+
+	Frame* currentFrame {};
 	Util::KEYBOARD key{};
 
-	export bool* running;
+	export std::string* currentFrameName{};
 
-	export void setUpdateFunc( std::function<std::string( Util::KEYBOARD )> func ) 
-	{ 
-		updateFunc = func; 
+	export void setUpdateFunc( std::function<std::string( Util::KEYBOARD )> func )
+	{
+		updateFunc = func;
 		updateMode = 'f';
 	}
 
@@ -30,11 +31,11 @@ export namespace Update {
 		currentFrame = updateFrame;
 	}
 
-	export void Update() 
-	{ 
+	export void Update()
+	{
 		switch ( updateMode ) {
 		case 'f':
-			*currentFrameName = updateFunc(key);
+			*currentFrameName = updateFunc( key );
 			break;
 		case 'm':
 			*currentFrameName = updateMethod( *currentFrame, key );
@@ -44,6 +45,16 @@ export namespace Update {
 			system( "pause" );
 			exit( 1 );
 		}
+	}
+
+	//export void setInitializer( Frame* initialieFrame )
+	//{
+
+	//}
+
+	export void Init()
+	{
+		initMethod(*currentFrame);
 	}
 
 	export void keyEvent()

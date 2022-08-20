@@ -33,9 +33,6 @@ namespace Core {
 		frames.push_back( &FS::fontSpaceMenuFrame );
 		frames.push_back( &TEST::testFrame );
 		changeFrame( "FontSpaceMenu" );
-
-		// Test
-		//Render::setDisplayFunc( showTest );
 	}
 
 	void changeFrame( std::string frameName )
@@ -52,5 +49,7 @@ namespace Core {
 
 		Render::setDisplayMethod( *frame );
 		Update::setUpdateMethod( *frame );
+		
+		Update::Init();
 	}
 }

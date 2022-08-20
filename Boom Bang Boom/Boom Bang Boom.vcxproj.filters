@@ -19,6 +19,9 @@
     <Filter Include="헤더 파일\Game">
       <UniqueIdentifier>{8680ed81-155a-457f-b372-5bba6fa34aa9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="헤더 파일\Game\Object">
+      <UniqueIdentifier>{4c02fcd1-2b69-4bc5-ba11-9fbd0cb603ab}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -26,12 +29,6 @@
     </ClCompile>
     <ClCompile Include="Renderer.ixx">
       <Filter>헤더 파일\Engine</Filter>
-    </ClCompile>
-    <ClCompile Include="Core.ixx">
-      <Filter>헤더 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Core.cpp">
-      <Filter>헤더 파일</Filter>
     </ClCompile>
     <ClCompile Include="Utility.ixx">
       <Filter>헤더 파일\Engine</Filter>
@@ -50,6 +47,27 @@
     </ClCompile>
     <ClCompile Include="EngineTest.ixx">
       <Filter>헤더 파일\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.ixx">
+      <Filter>헤더 파일\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.cpp">
+      <Filter>헤더 파일\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.ixx">
+      <Filter>헤더 파일\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="InGame.cpp">
+      <Filter>헤더 파일\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="InGame.ixx">
+      <Filter>헤더 파일\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.ixx">
+      <Filter>헤더 파일\Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>헤더 파일\Game\Object</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

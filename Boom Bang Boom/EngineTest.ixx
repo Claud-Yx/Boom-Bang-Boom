@@ -7,6 +7,7 @@ import Frame;
 namespace TEST {
 	void renderTest()
 	{
+		Render::setConsoleSize( 80, 36 );
 		Render::getFgColorCode( 1 );
 
 		Render::PartedOutputBuffer out;

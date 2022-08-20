@@ -156,9 +156,12 @@
     </ClCompile>
     <ClCompile Include="InGame.ixx" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Map.ixx" />
     <ClCompile Include="Object.ixx" />
+    <ClCompile Include="PublicEnum.ixx" />
     <ClCompile Include="Renderer.cpp" />
     <ClCompile Include="Renderer.ixx" />
+    <ClCompile Include="Stage.ixx" />
     <ClCompile Include="Updater.ixx" />
     <ClCompile Include="Utility.ixx" />
   </ItemGroup>

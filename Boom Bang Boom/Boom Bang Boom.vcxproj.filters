@@ -22,6 +22,12 @@
     <Filter Include="헤더 파일\Game\Object">
       <UniqueIdentifier>{4c02fcd1-2b69-4bc5-ba11-9fbd0cb603ab}</UniqueIdentifier>
     </Filter>
+    <Filter Include="헤더 파일\Game\Stage">
+      <UniqueIdentifier>{bce6bd42-25a1-4b35-bfd0-1572ca9ed142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Game\etc">
+      <UniqueIdentifier>{533cfe56-7b3e-4bcb-a684-d672ebb7730b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -68,6 +74,15 @@
     </ClCompile>
     <ClCompile Include="Block.cpp">
       <Filter>헤더 파일\Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.ixx">
+      <Filter>헤더 파일\Game\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.ixx">
+      <Filter>헤더 파일\Game\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="PublicEnum.ixx">
+      <Filter>헤더 파일\Game\etc</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

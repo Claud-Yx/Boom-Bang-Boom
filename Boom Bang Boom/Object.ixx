@@ -10,7 +10,7 @@ import FontSpace;
 using namespace Util;
 
 // Parent
-class Object {
+export class Object {
 protected:
 	ID id;
 	Coord crd;
@@ -30,7 +30,7 @@ public:
 };
 
 // Block object
-class Block : public Object {
+export class Block : public Object {
 private:
 	TRAIT trait;
 	int hp;
